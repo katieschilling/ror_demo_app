@@ -5,7 +5,8 @@ gem 'rails', '4.0.8'
 
 group :development do
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+  gem 'sqlite3'
+  gem 'rspec-rails', '>=2.0.0.beta'
 end
 
 # Use SCSS for stylesheets
